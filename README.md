@@ -5,7 +5,7 @@ This repository provides a shell script to generate a standard boilerplate struc
 ## Directory Structure
 
 The script will create the following directory structure:
-
+```bash
 myapp/
 ├── cmd/
 │ └── go-myapp-apis/
@@ -51,7 +51,7 @@ myapp/
 ├── social_login.go
 └── token_utils.go
 setup_project.sh
-
+```
 
 ## Prerequisites
 
@@ -67,8 +67,10 @@ setup_project.sh
    ```
    
 2. Make the setup_project.sh script executable:
-   
+   ```bash 
    chmod +x setup_project.sh
+   ```
+   
 ## Usage
 1. Run the setup_project.sh script to generate the project structure:
 ```bash
